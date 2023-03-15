@@ -6,7 +6,7 @@ using Mono.Cecil;
 
 public class PowerUp : UsableItem.UsageEffect
 {
-    public StatSystem.StatModifier PowerIncrease = new StatSystem.StatModifier();
+    public StatSystem.StatModifier PowerIncrease;
 
     public override bool Use(CharacterData user)
     {
